@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/EditText_1"
+            android:hint="Поле ввода #1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"/>
+    <EditText
+            android:id="@+id/EditText_2"
+            android:hint="Поле ввода #2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="50dp"/>
+    <Button
+            android:id="@+id/SumBTN"
+            android:text="+"
+            android:textSize="20dp"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/MultiplyBTN"
+            android:text="*"
+            android:textSize="20dp"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginLeft="50dp"/>
+    <Button
+            android:id="@+id/SubBTN"
+            android:text="-"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="50dp"/>
+    <Button
+            android:id="@+id/DivBTN"
+            android:text="/"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginRight="50dp"/>
+    <TextView
+            android:id="@+id/ResultTxt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="25sp"
+            android:text="Result: "/>
+
+</RelativeLayout>
